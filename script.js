@@ -16,3 +16,14 @@ console.log(typeof(num));
 console.log(typeof(str));
 console.log(typeof(bool));
 console.log(typeof(week));
+
+// operator precedence
+let now = 2026;
+const age1 = now - 2007;
+const age2 = now - 2010;
+console.log(now - 2007 > now - 2010);
+let x, y;
+x = y = 25 - 5 - 10;//x=y=10
+console.log(x, y);
+const avg = (age1 + age2) / 2
+console.log(age1, age2, avg);
